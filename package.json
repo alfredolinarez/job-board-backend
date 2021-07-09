@@ -1,0 +1,38 @@
+{
+  "name": "alfredo-job-board-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js",
+    "purge": "node scripts/purge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helxdev/alfredo-job-board-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helxdev/alfredo-job-board-backend/issues"
+  },
+  "homepage": "https://github.com/helxdev/alfredo-job-board-backend#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/node": "^16.0.0",
+    "nodemon": "^2.0.9"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "mysql2": "^2.2.5",
+    "nanoid": "^3.1.23",
+    "sequelize": "^6.6.4"
+  }
+}
